@@ -1,0 +1,98 @@
+
+body{
+    background-color: #8f2bad;
+    width:100%;
+    height:100%;
+}
+.container{
+    display: flex;
+    width: 45%;
+    height:35%;
+    justify-content: center;
+    align-items: center;
+
+}
+.log{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+    background-color:whitesmoke;
+    width: 100%;
+    height: 50%;
+
+}
+.log h3{
+    font-size: 2em;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 5%;
+}
+.box{
+    width: 60%;
+    height: 60%;
+    margin: 10%;
+    padding: 7.5%;
+    border:none;
+    background-color: #e0dfed;
+
+}
+#submit{
+    cursor: pointer;
+    color: #8f2bad;
+    font-size: 1.23em;
+    padding: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+    width:70%;
+    height: 60%;
+}
+#submit:hover{
+    background-color: #8f2bad;
+    color: white;
+}
+.log a{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    padding: 20%;
+
+}
+.log a:hover{
+    color: #8f2bad;
+    text-shadow: 0% 0% 12% black;
+}
+.container1{
+    display: flex;
+    background-color: #e0dfed;
+    width: 40%;
+    height: 20%;
+    padding: 10%;
+    margin: auto;
+    margin-top: 10%;
+ 
+}
+#popup{
+
+    text-align: center;
+    font-weight: bold;
+}
+#okay{
+    width: 150%;
+    height: 40%;
+    margin-top: 190%;
+    margin-left: 300%;
+}
+#okay:hover{
+    background-color: #8f2bad;
+    color: #e0dfed;
+    cursor: pointer;
+}
+.remember{
+    margin-top:20% ;
+    cursor: pointer;
+}
